@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> fibonacci sequence </title>
+</head>
+<body style= "background-color:pink; text-align:center; color:darkorchid; font-size:20px;" >
+<h2 style="text-align:center; color:blueviolet">Generating Fibonacci Series</h2>
+<br>
+<script>
+var number= parseInt(prompt("Enter range:   "));
+var first=0;
+var second=1;
+var third;
+
+document.write("The Fibonacci sequence are: ");
+for(j=1; j<=number; j++)
+{
+document.write(first);
+third=first+second;
+first=second;
+second=third;
+}
+</script>
+
+
+</body>
+</html>
